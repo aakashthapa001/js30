@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  margin: 0;
   padding: 0;
   display:flex;
   background:#7A419B;
@@ -30,7 +31,7 @@ body {
   width: 100%;
 }
 
-.player__button {
+.player__button, .player__full {
   background:none;
   border:0;
   line-height:1;
